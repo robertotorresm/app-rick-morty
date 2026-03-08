@@ -46,10 +46,9 @@ fun EpisodesListScreen() {
         containerColor = FondoApp,
         topBar = {
 
-            Column(modifier = Modifier.padding(horizontal = 24.dp, vertical = 16.dp)) {
+            Column(modifier = Modifier.padding(start = 24.dp, end = 24.dp, top = 48.dp, bottom = 16.dp)) {
                 Row(
-                    modifier = Modifier
-                        .fillMaxWidth(),
+                    modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween,
                     verticalAlignment = Alignment.CenterVertically
                 ) {
