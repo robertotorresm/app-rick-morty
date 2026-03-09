@@ -23,21 +23,43 @@ val SpaceGroteskFontFamily = FontFamily(
 )
 
 val AppTypography = Typography(
+
     headlineLarge = TextStyle(
         fontFamily = SpaceGroteskFontFamily,
         fontWeight = FontWeight.Bold,
         fontSize = 32.sp
     ),
+
     titleLarge = TextStyle(
         fontFamily = SpaceGroteskFontFamily,
         fontWeight = FontWeight.Bold,
         fontSize = 22.sp
     ),
+
+    titleMedium = TextStyle(
+        fontFamily = SpaceGroteskFontFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 18.sp
+    ),
+
     bodyMedium = TextStyle(
         fontFamily = SpaceGroteskFontFamily,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp
     ),
+
+    bodySmall = TextStyle(
+        fontFamily = SpaceGroteskFontFamily,
+        fontWeight = FontWeight.Normal,
+        fontSize = 12.sp
+    ),
+
+    labelLarge = TextStyle(
+        fontFamily = SpaceGroteskFontFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 12.sp
+    ),
+
     labelSmall = TextStyle(
         fontFamily = SpaceGroteskFontFamily,
         fontWeight = FontWeight.ExtraBold,
